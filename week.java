@@ -7,11 +7,11 @@ class Employee
   byte expyrs;
   void setEmployee(String n,int no,float sal,String des,byte ex)
   {
-     empname=n;
-     empno=no;
-     salary=sal;
-     empdesgn=des;
-     expyrs=ex;
+     this.empname=n;
+     this.empno=no;
+     this.salary=sal;
+     this.empdesgn=des;
+     this.expyrs=ex;
   }
   void getEmployee()
   {
